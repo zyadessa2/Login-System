@@ -1,0 +1,38 @@
+.box{
+    position: absolute;
+    left: 20%;
+    align-items: center;
+    transform: translateY(30%);
+    background-color: rgb(36, 53, 63);
+}
+.bg-color{
+    background-color: rgb(36, 53, 63);
+}
+.color{
+    color: rgb(23, 162, 184);
+    
+}
+.log-in{
+    height: 100vh;
+}
+#particles-js{
+    height: 99vh;
+}
+input{
+    background-color: transparent !important;
+    color: white !important;
+}
+input::placeholder {
+    color: rgb(161, 161, 161) !important;
+}
+
+#crudPage .navbar-toggler{
+    border-color: aliceblue !important;
+}
+
+@media (max-width:767px) {
+    #btnLogout{
+        width: 100%;
+    } 
+}
+
